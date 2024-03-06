@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+.avatar{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.hm {
+    border-radius: 15px;
+    box-shadow: 0 0 5px white, 0 0 25px white;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #7ab2d3;
+}
+.content hl{
+    font-size: 100px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: #223361;
+    font-weight: bold;
+}
+.div1 {
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 50px 150px 0 150px;
+}
+.div1 img {
+    border: 2px solid #7ab2d3;
+    box-shadow: 0 0 5px #7ab2d3, 0 0 52px #7ab2d3;
+}
+.imgli {
+    border-radius: 15px;
+    background: transparent;
+    color: #7ab2d3;
+    text-decoration: none;
+    border: 2px solid #7ab2d3;
+    font-weight: bold;
+    transition: .4s ease;
+}
+.div1 h1 {
+    margin-bottom: 20px;
+}
+.div1 h4 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    width: 100%;
+    font-size: 12px;
+}
+.div2 {
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 50px 150px 0 150px;
+}
+.div2 img {
+    border: 2px solid #7ab2d3;
+    box-shadow: 0 0 5px #7ab2d3, 0 0 52px #7ab2d3;
+}
+.imgli {
+    border-radius: 15px;
+    background: transparent;
+    color: #7ab2d3;
+    text-decoration: none;
+    border: 2px solid #7ab2d3;
+    font-weight: bold;
+    transition: .4s ease;
+}
+.content2{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: 	#6d6579;
+}
+.content2 hl{
+    font-size: 100px;
+    margin-top: 80px;
+}
+.content2 p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: 	#474470;
+    font-weight: bold;
+}
+button{
+    width: 100px;
+    padding: 15x 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #7ab2d3;
+    color: #223361;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #7ab2d3;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
